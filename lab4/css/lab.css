@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: pink;
+}
+
+p {
+  color: white;
+}
+#summary {
+  background-color: gray;
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px white;
+}
+
+#pseudo1 {
+  background-color: gray;
+  margin: 10px;
+  border: solid 1px white;
+}
+
+#pseudo2 {
+  background-color: gray;
+  margin: 10px;
+  border: solid 1px white;
+}
