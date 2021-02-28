@@ -31,4 +31,9 @@ p {
   background-color: gray;
   border: solid 1px white;
   padding: 30px;
+  color: white;
+}
+
+head.script {
+  color: white;
 }
