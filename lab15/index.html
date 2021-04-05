@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<!-- Page Tab Title -->
+<head>
+	<title>Lab 15 - Object-Oriented Design</title>
+	<script src="js/lab.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+
+<!-- Content -->
+<body>
+
+<!-- Summary of Lab -->
+	<div class="summary">
+		<center><h1>Lab 15: Object-Oriented Design</h1></center>
+
+		<h2>Challenge</h2>
+		<p>The challenge that I delt with was coming up with ideas and picking out which one's would work.</p>
+
+		<h2>Problems</h2>
+		<p>The problems that I ran into was minor syntax errors.</p>
+
+		<h2>Results</h2>
+		<p>Overall, the lab was simple and a good practice.</p>
+	</div>
+
+<!-- JavaScript Output -->
+	<div id="jsoutput">
+		<h2>Script Output</h2>
+
+		<div id="output">
+		</div>
+	</div>
+
+	<div class="OOPdesign">
+		<h2>OOP Design</h2>
+
+		<h3>Understand the Problem</h3>
+		<li>Set up game w/ board and players
+			<ul>
+				<li>Game Loop</li>
+				<li>Draw Board</li>
+				<li>Select Random Word</li>
+				<li>Validate input</li>
+				<li>Check if correct or not</li>
+				<li>End game if word is filled or body if complete</li>
+			</ul>
+		</li>
+
+		<h3>Pseudocode the High Level Approach</h3>
+		<li>Set up game
+			<ul>
+				<li>Create game board</li>
+				<li>Create Players</li>
+				<li>Start Game Loop</li>
+				<li>Render Board</li>
+				<li>Generate random word</li>
+				<li>Display length with lines of word to players</li>
+				<li>Player enters letter</li>
+				<li>If letter matchces, display letter on line</li>
+				<li>If wrong, draw body part on hanger</li>
+				<li>Track wrong guess, and display</li>
+				<li>If game ends, show victory or loss message</li>
+			</ul>
+		</li>
+
+		<h3>Assign Actions to Objects</h3>
+		<li>Set up game [hangman]
+			<ul>
+				<li>Create game board [board]</li>
+				<li>Create players [player]</li>
+				<li>Start game loop [hangman]</li>
+				<li>Render board [board]</li>
+				<li>Generate random word [hangman]</li>
+				<li>Display length of word to players [board]</li>
+				<li>Get letters from guessers and validate [player]</li>
+				<li>If letter is correct, display on letter line [board]</li>
+				<li>If wrong, draw body part on hanger [board]</li>
+				<li>Display wrong guess on the side</li>
+				<li>If game should end [hangman]</li>
+				<li>show victory or loss message</li>
+				<li>Stop looping</li>
+				<li>Else Switch to next player and keep looping [hangman]</li>
+			</ul>
+		</li>
+
+		<h3>Make Javascript-ish Pseudocode</h3>
+		<li>Set up game [hangman]
+			<ul>
+				<li>initialize</li>
+				<li>set up board</li>
+				<li>set up players</li>
+				<li>set up starting player</li>
+				<li>play</li>
+				<li>loop infinitely</li>
+				<li>generate random word</li>
+				<li>display length of word to players</li>
+				<li>get letters from guessers and validate</li>
+				<li>check_game_over</li>
+				<li>check_victory</li>
+				<li>check_loss</li>
+				<li>check_victory</li>
+				<li>if board says word is complete</li>
+				<li>display victory message</li>
+				<li>check_loss</li>
+				<li>if board says body is complete</li>
+				<li>display loss message</li>
+</body>
+</html>
