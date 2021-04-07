@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  margin: 30px;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: white;
+}
+
+.summary {
+  background-color: gray;
+  border: solid 1px white;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+#jsoutput {
+  background-color: gray;
+  border: solid 1px white;
+  padding: 30px;
+}
+
+.OOPdesign {
+  background-color: gray;
+  border: solid 1px white;
+  padding: 30px;
+  margin-top: 10px;
+}
