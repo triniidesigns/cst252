@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  margin: 30px;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+.summary {
+  background-color: gray;
+  border: solid 1px white;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+#first, #second, #third {
+  background-color: white;
+  border:solid 1px black;
+  padding: 30px;
+}
+
+#first.one {
+  background-color: violet;
+}
+
+#second.two {
+  background-color: pink;
+}
+
+#third.three {
+  background-color: limegreen;
+}
