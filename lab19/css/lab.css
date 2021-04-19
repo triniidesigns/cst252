@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  margin: 30px;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: white;
+}
+
+.container {
+  background-color: gray;
+  border: solid 1px white;
+  padding: 30px;
+  margin-bottom: 10px;
+}
