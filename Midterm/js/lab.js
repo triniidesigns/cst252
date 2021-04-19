@@ -9,10 +9,9 @@ $(document).ready(function(){
 var controller = new ScrollMagic.Controller();
 
 //build a scene
-var ourScene = new Scrollmagic.Scene({
+var ourScene = new ScrollMagic.Scene({
 	triggerElement: '.tool'
-)}
-.setClassToggle('.tool', 'fade-in')
-.addIndicators()
+})
+.setClassToggle('.tool', '.fade-in');
 .addTo(controller);
 });
